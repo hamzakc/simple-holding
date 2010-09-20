@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>PUT TITLE HERE</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/960.css" />
+    <link type="text/css" rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <div class="container_12">
+      <div class="grid_12" id ="top_bar">
+        <div class="grid_6 alpha">
+          <img src ="images/logo.png" alt= "logo" />
+        </div>
+        <div class="grid_6 omega">
+          <h2>What is this site going to do?</h2>
+          <p>
+            A simple description here
+          </p>
+          <p>Interested? Please sign up to be informed when we launch.</p>
+        </div>
+      </div>
+      <%if params[:thank_you].nil?%>
+        <div class="grid_9 prefix_3" id = "contact">
+          <h3>Inform me when we are ready to launch</h3>
+          <form action ="/contact" method ="post">
+            <label>Email address: </label> <input type ="text" name = "email" class = "contact" />
+            <input type="submit" class="awesome small" value = "Let me know"/>
+          </form>
+        </div>
+      <%else%>
+        <div class="grid_11 prefix_1">
+          <h2>Thanks. We will let you know when we are ready to open our doors.</h2>
+        </div>
+      <%end%>
+    </div>
+  </body>
+</html>

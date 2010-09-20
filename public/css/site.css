@@ -1,0 +1,163 @@
+/* General ----------------------------------------------------*/
+body {
+    background-color:#fff;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p, label , ul {
+  font-size: 13px;
+  line-height:18px;
+   font-family: "Lucida Grande",Geneva,Arial,Verdana,sans-serif;
+  color:#333;
+  margin-bottom: 5px;
+  padding-left:20px;
+}
+
+label {
+  font-weight: bold;
+  padding-left:0px;
+  color:#333;
+}
+
+h2,h3{
+    font-family:"Lucida Grande",Geneva,Arial,Verdana,sans-serif;
+    color: #222;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    text-align: left;
+    padding-left:0px;
+    padding-top:10px;
+}
+
+h3 {
+  font-size:15px;
+  padding-left:0px;
+}
+
+a {
+    color: #444;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+li {
+  list-style: square;
+  margin-left:15px;
+  margin-bottom:3px;
+}
+
+input {
+    border:0px;
+}
+
+/* Header & top section ----------------------------------------------------*/
+
+#top_bar , #work , #header{
+    margin-top:50px;
+    border-bottom: 1px solid #7b7b7b; 
+    padding-bottom:10px;
+}
+
+#header {
+    margin-top:5px;
+    background-color:#83BD36;
+    -webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+}
+#header img {
+    margin-top:5px;
+    margin-left:5px;
+}
+
+#top_bar p {
+  width:90%;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left:0px;
+  padding-left:0px;
+}
+
+#top_bar ul {
+  margin-top:10px;
+}
+#top_bar li {
+    margin-bottom:10px;
+}
+
+.contact {
+  width:200px; 
+  font-size:14px;
+  border: 1px solid #222;
+}
+
+#top_bar textarea {
+  width:100%;
+  height: 150px;
+  font-size: 13px;
+}
+
+#top_bar form span {
+  font-size: 10px;
+  font-family: "Lucida Grande",Geneva,Arial,Verdana,sans-serif;
+  color:#444;
+  font-weight: bold;
+}
+
+#top_bar .button {
+  width: auto;
+  margin-top:5px;
+  border:0px;
+}
+
+/* Rounder Buttons ----------------------------------------------------*/
+
+.awesome, .awesome:visited {
+  background: #222 url(../images/alert-overlay.png) repeat-x; 
+  display: inline-block; 
+  padding: 5px 10px 6px; 
+  color: #fff; 
+  text-decoration: none;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+}
+
+.awesome:hover { 
+    background-color: #111; 
+    color: #fff; 
+}
+.awesome:active { 
+    top: 1px; 
+}
+.small.awesome, .small.awesome:visited { 
+    font-size: 11px; padding: ; 
+}
+.awesome, .awesome:visited {
+    font-size: 13px; 
+    font-weight: bold; 
+    line-height: 1; 
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+}
+
+.green.awesome, .green.awesome:visited { 
+    background-color: #91bd09; 
+}
+
+.green.awesome:hover { 
+    background-color: #749a02; 
+}

@@ -1,0 +1,27 @@
+h1. Simple Holding
+
+h2. About
+
+This is a very small Sinatra application that allows you to have a one page holding page that asks the user to enter their email address to be informed when the website is launched.
+
+h2. Requirements
+
+* "Rubygems":http://rubygems.org/
+* "Sinatra framework":http://www.sinatrarb.com/
+* "Pony":http://github.com/adamwiggins/pony/
+
+h2. Installation 
+
+gem install sinatra pony
+
+# Edit application.rb  and replace the :to and the :from fields in the Pony.mail section
+
+# Edit views/index.erb and replace it with your text
+
+h2. Meta
+
+Written by Hamza Khan-Cheema
+
+"Released under the MIT License:":www.opensource.org/licenses/mit-license.php
+
+github.com/hamzakc/simple-holding
