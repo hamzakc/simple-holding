@@ -15,7 +15,6 @@ h2. Installation
 gem install sinatra pony
 
 # Edit application.rb  and replace the :to and the :from fields in the Pony.mail section
-
 # Edit views/index.erb and replace it with your text
 
 h2. Meta
